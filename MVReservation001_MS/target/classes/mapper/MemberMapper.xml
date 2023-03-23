@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- dao의 interface와 연동되어야 한다. -->
+
+<mapper namespace="com.MVReservation001.dao.MemberDao">
+<!-- <insert id="insertReview" parameterType="reviews" >
+
+INSERT INTO REVIES(RVRECODE, RVMID, RVCOMMENT, RVRECOMMEND, RVDATE)
+VALUES(#{rvrecode}, #{rvmid}, #{rvcomment}, #{rvrecommend}, SYSDATE)
+
+</insert>  -->
+
+<!-- 	<select id="selectReInfo" resultType="reservation" parameterType="String">
+		SELECT RV.RVRECODE, MV.MVPOS, RE.RECODE, MV.MVTITLE, MV.MVCODE ,RE.REMID, TH.THNAME, RE.REROOM ,RE.REDATE ,RE.RENUMBER
+		FROM RESERVATION RE
+		INNER JOIN MOVIES MV
+		ON RE.REMVCODE = MV.MVCODE
+		INNER JOIN THEATERS TH
+		ON RE.RETHCODE = TH.THCODE
+		LEFT OUTER JOIN REVIEWS RV
+		ON RE.RECODE = RV.RVRECODE
+		WHERE RE.REMID = #{loginId}
+	</select> -->
+
+
+</mapper>

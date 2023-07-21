@@ -38,6 +38,11 @@ CGV홈페이지의 영화, 극장, 상영 정보를 크롤링함.
 ![image](https://github.com/MoongBan/MoviePick_sources/assets/122944951/d13d0765-2fc6-4d41-8c18-582342037a91)
 WebSocket 이용하여 다른 유저와 채팅 가능. 입장 및 퇴장 알림 구현.
 --- 
+## ✏️ERD
+![MoviePick_ERD](https://github.com/MoongBan/MoviePick_sources/assets/122944951/428849e9-4ff6-4699-88d9-7bcfabc226c3)
+
+
+
 ## 🤼‍♂️Author
 🐺 Park MinSeo
 
